@@ -1,0 +1,64 @@
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+.owl-theme .owl-controls {
+font-family: 'hindmedium';
+font-size: 14px;
+line-height: 33px;
+text-align: center;
+}
+.owl-theme .owl-controls  .owl-pagination .owl-page,
+.owl-theme .owl-controls .owl-buttons div {
+text-align: center;
+display: inline-block;
+width: 38px;
+height: 33px;
+border-width: 1px;
+border-style: solid;
+margin: 0 5px;
+*zoom: 1; /*IE7 life-saver */
+*display: inline; /*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-buttons div:before,
+.owl-theme .owl-controls .owl-buttons div:after {
+font-family: 'FontAwesome';
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+margin-left: 0;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev:before {
+content: "\f104";
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+margin-right: 0;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next:after {
+content: "\f105";
+}
+.owl-theme .owl-controls .owl-pagination .owl-page.active {
+cursor: default;
+}
+.product-carousel .owl-controls .owl-buttons div,
+.product-carousel.owl-theme .owl-controls .owl-buttons div {
+border: 0 none;
+background: url('../images/overlay-gray.png') repeat 50% 50% transparent;
+position: absolute;
+top: 50%;
+margin-top: -16px;
+}
+.product-carousel .owl-controls.clickable .owl-buttons div:hover,
+.product-carousel.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+background: url('../images/overlay-blue.png') repeat 50% 50% transparent;
+}
+.product-carousel .owl-controls .owl-buttons .owl-prev {
+left: 40px;
+}
+.product-carousel .owl-controls .owl-buttons .owl-next {
+right: 40px;
+}
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url('../images/AjaxLoader.gif') no-repeat center center
+}
